@@ -10,6 +10,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatCardModule } from '@angular/material/card';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
@@ -28,6 +29,7 @@ import { SuperSecretComponent } from './super-secret/super-secret.component';
     MatIconModule,
     MatButtonModule,
     MatMenuModule,
+    MatCardModule,
     AngularFireModule.initializeApp({
       apiKey: 'AIzaSyCIIOlyIKQmcq2sjbgtXpFbFgMaWEu3mtg',
       authDomain: 'saas-boilerplate-7741b.firebaseapp.com',
