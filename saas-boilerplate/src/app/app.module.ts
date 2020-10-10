@@ -18,9 +18,11 @@ import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 
 import { SuperSecretComponent } from './super-secret/super-secret.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { AuthPageComponent } from './auth-page/auth-page.component';
 
 @NgModule({
-  declarations: [AppComponent, NavMenuComponent, SuperSecretComponent],
+  declarations: [AppComponent, NavMenuComponent, SuperSecretComponent, LandingPageComponent, AuthPageComponent],
   imports: [
     AppRoutingModule,
     BrowserModule,
